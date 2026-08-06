@@ -319,7 +319,7 @@ export default function MapView({
       [Math.min(...lats), Math.min(...lons)],
       [Math.max(...lats), Math.max(...lons)],
     ]
-    imagenLayerRef.current = L.imageOverlay(imagenUrl, bounds, { opacity: 0.85 }).addTo(map)
+    imagenLayerRef.current = L.imageOverlay(imagenUrl, bounds, { opacity: 1 }).addTo(map)
   }, [imagenUrl, parcGeojson])
 
   return <div ref={mapRef} style={{ width: '100%', height: '100%' }} />
