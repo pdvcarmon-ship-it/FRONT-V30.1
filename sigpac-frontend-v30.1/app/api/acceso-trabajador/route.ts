@@ -16,7 +16,7 @@
 // usando el syntheticEmail que este endpoint le devuelve.
 
 import { NextRequest, NextResponse } from 'next/server'
-import { supabaseAdmin } from '../../../lib/supabaseAdmin'
+import { supabaseAdmin } from '../../lib/supabaseAdmin'
 
 interface BodyEsperado {
   emailEmpresa?: string
