@@ -4033,7 +4033,7 @@ export default function Home() {
                 </div>
               )}
 
-              {/* ---- (dentro del bloque 4/4 de histórico desactivado) ----
+              {/* ---- (dentro del bloque 4/4 de histórico desactivado) ---- */}
               {popupCambioCampanas && (
                 <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', zIndex: 2500, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: isMobile ? 10 : 20 }}>
                   <div style={{ background: 'var(--surface)', border: '1px solid #ffb454', borderRadius: 12, width: '100%', maxWidth: 900, maxHeight: '90vh', display: 'flex', flexDirection: 'column' }}>
